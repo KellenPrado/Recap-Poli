@@ -1,0 +1,19 @@
+{
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+  "headers": [
+    {
+      "source": "/recap-widget.js",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate, max-age=0"
+        }
+      ]
+    }
+  ]
+}
